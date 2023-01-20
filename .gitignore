@@ -6,3 +6,7 @@ appunti.txt
 myconfig.py
 debug.log
 /env
+.vscode
+.vscode/*
+.venv
+.venv/*
