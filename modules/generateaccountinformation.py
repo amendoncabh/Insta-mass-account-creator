@@ -5,13 +5,12 @@
  """
 
 import random
-import mechanicalsoup
 import string
 import logging
+# import mechanicalsoup
 
 from .config import Config
 from .getIdentity import getRandomIdentity
-
 
 #generating a username
 def username(identity):
@@ -33,11 +32,11 @@ def genEmail(username) :
 
 def new_account():
     account_info = {}
-    identity, gender, birthday = getRandomIdentity(country=Config["country"])
+    identity, gender, birthday, mail_account = getRandomIdentity(Config["country"], Config["gender"])
     account_info["name"] = identity
     account_info["username"] = username(account_info["name"])
     account_info["password"] = generatePassword()
-    account_info["email"] = genEmail(account_info["username"])
+    account_info["email"] = mail_account or genEmail(account_info["username"])
     account_info["gender"] = gender
     account_info["birthday"] = birthday
     return(account_info)

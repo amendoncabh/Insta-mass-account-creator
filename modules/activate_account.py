@@ -9,10 +9,10 @@
 # from .config import Config
 
 
-# imaphost = Config['activation_email_serv']
-# imapport = Config['activation_email_spor']
-# watchedemail_add = Config['activation_email_addr']
-# watchedemail_pwd = Config['activation_email_pass']
+# imaphost = Config['email_server']
+# imapport = Config['email_port']
+# watchedemail_add = Config['email_user']
+# watchedemail_pwd = Config['email_passord']
 
 # def get_activation_url(email):
 #     pattern = '(TO ' + email + ' )'

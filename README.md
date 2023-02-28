@@ -1,20 +1,21 @@
 # Insta Mass Account creator (Not being maintained, feel free to fork)
+
 ![Version](https://img.shields.io/badge/version-1.1.0-brightgreen.svg?style=flat-square)
 ![Version](https://img.shields.io/badge/release-beta-green.svg?style=flat-square)
 
-#### Actively not being maintained, due to different challenges. if you would like to maintain this project contact me!
+## Actively not being maintained, due to different challenges. if you would like to maintain this project contact me
 
 Create a new virtualenv
 
-- Requirements:<br>
+- Requirements:
   - run `pip install -r requirements.txt`
-<br>
-Download chrome driver<br>
-configure it to path<br>
 
+Download chrome driver
 
+configure it to path
 
 ## Configuration
+
 open config.py in modules
 
 | Config               | Usage                                                                                                |
@@ -36,17 +37,20 @@ run <strong>`python creator.py`</strong>
 All username are stored in Assets/usernames.txt
 
 ### Features
+
 this script create account with random name get by the web and doesn't use random name or random usernames. All user created are older 18 years
 
 ### Important
--  The new fake Instagram account with an unverified phone number after ~ 1-24 hours could not do any requests. All requests will be redirected to the page           
+
+- The new fake Instagram account with an unverified phone number after ~ 1-24 hours could not do any requests. All requests will be redirected to the page
 <a href="https://instagram.com/challenge">https://instagram.com/challenge</a>
 
 ### contribution
+
 - Fork this repo.
 - Add new features.
 - Create a new pull request for this branch.
 
-
 ### Credits
+
 [Matteo Gaito](https://github.com/matteogaito)
